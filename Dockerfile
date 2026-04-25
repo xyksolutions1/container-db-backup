@@ -1,7 +1,7 @@
 ARG DISTRO=alpine
 ARG DISTRO_VARIANT=3.21-7.10.31
 
-FROM docker.io/tiredofit/${DISTRO}:${DISTRO_VARIANT}
+FROM docker.io/xyksolutions1/docker-alpine:latest
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 
 ENV INFLUX1_CLIENT_VERSION=1.8.0 \
